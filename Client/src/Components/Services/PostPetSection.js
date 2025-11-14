@@ -81,7 +81,7 @@ const PostPetSection = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/services", {
+      const response = await fetch("https://petfinds.onrender.com/services", {
         method: "POST",
         body: formData,
       });

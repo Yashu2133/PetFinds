@@ -11,7 +11,7 @@ const Notify = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4000/api/notify', {
+      const response = await axios.post('https://petfinds.onrender.com/api/notify', {
         petType,
         breed,
       });

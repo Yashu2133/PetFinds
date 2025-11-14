@@ -7,18 +7,18 @@ const Contact = () => {
       <div className="contactUs-left-para">
         <h3>Let's get in touch</h3>
         <i class="fa fa-envelope"></i>
-        <a class="mail-links" href="mailto:rathiyashu1661@gmail.com">
-        rathiyashu1661@gmail.com
+        <a class="mail-links" href="mailto:rathiyasvantn@gmail.com">
+        rathiyasvantn@gmail.com
         </a>
 
         <i class="fa fa-linkedin"></i>
-        <a class="mail-links" href="#">
+        <a class="mail-links" href="https://www.linkedin.com/in/rathik-yasvant-178676238/">
           User Name: Rathik Yasvant
         </a>
 
         <i class="fa fa-github"></i>
-        <a class="mail-links" href="#">
-          Rahik Yasvant
+        <a class="mail-links" href="https://github.com/Yashu2133">
+          Rathik Yasvant
         </a>
 
         <i class="fa fa-instagram"></i>

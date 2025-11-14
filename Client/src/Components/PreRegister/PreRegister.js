@@ -13,7 +13,7 @@ const PreRegister = () => {
     e.preventDefault();
 
     try {
-      const response = await axios.post('http://localhost:4000/api/preregister', {
+      const response = await axios.post('https://petfinds.onrender.com/api/preregister', {
         petType,
         breed,
         email,

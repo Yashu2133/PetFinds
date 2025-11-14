@@ -12,7 +12,7 @@ const PreRegistrations = () => {
   // Fetch pre-registrations from the backend
   const fetchPreRegistrations = async () => {
     try {
-      const response = await axios.get('http://localhost:4000/api/preregistrations');
+      const response = await axios.get('https://petfinds.onrender.com/api/preregistrations');
       setPreRegistrations(response.data);
     } catch (error) {
       console.error('Error fetching pre-registrations:', error);
@@ -45,7 +45,7 @@ const PreRegistrations = () => {
   // Send notification to a pre-registered user
   const sendNotification = async (preRegistrationId) => {
     try {
-      const response = await axios.post('http://localhost:4000/api/notify', {
+      const response = await axios.post('https://petfinds.onrender.com/api/notify', {
         petType: selectedPreRegistration.petType,
         breed: selectedPreRegistration.breed,
       });
@@ -67,7 +67,7 @@ const PreRegistrations = () => {
   // Delete a pre-registration
   const deletePreRegistration = async (preRegistrationId) => {
     try {
-      const response = await axios.delete(`http://localhost:4000/api/preregistrations/${preRegistrationId}`);
+      const response = await axios.delete(`https://petfinds.onrender.com/api/preregistrations/${preRegistrationId}`);
       if (response.status === 200) {
         alert('Pre-registration deleted successfully!');
         // Remove the deleted pre-registration from the UI

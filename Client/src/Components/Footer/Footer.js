@@ -14,14 +14,14 @@ const Footer = (props) => {
       <div className="below-footer">
         <p>
           You can reach me at{" "}
-          <a className="mail-links" href="mailto:rathikyashu1661@gmail.com">
-            rathikyashu1661@gmail.com
+          <a className="mail-links" href="mailto:rathikyasvantn@gmail.com">
+            rathikyasvantn@gmail.com
           </a>
         </p>
         <p>
           <a
             className="contact-links"
-            href="https://www.linkedin.com/in/kashiekzmi/"
+            href="https://www.linkedin.com/in/rathik-yasvant-178676238/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -30,7 +30,7 @@ const Footer = (props) => {
           &nbsp;&nbsp;|&nbsp;&nbsp;
           <a
             className="contact-links"
-            href="#"
+            href="https://github.com/Yashu2133"
             target="_blank"
             rel="noopener noreferrer"
           >
